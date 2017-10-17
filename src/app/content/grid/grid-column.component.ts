@@ -4,7 +4,7 @@ import { ContentOnCreate, ContentEmbeddable } from '../../reactive-content';
 
 @Component({
   selector: 'rc-grid-column',
-  template: `<div class="tile is-child"><ng-container #embed></ng-container></div>` 
+  template: `<div class="tile is-child"><ng-container #embed></ng-container></div>`
   // `<div class="column {{columnSize}} {{columnOffset}}" #embed></div>`
 })
 export class GridColumnComponent implements ContentOnCreate, ContentEmbeddable {
