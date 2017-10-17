@@ -4,7 +4,7 @@ import { ContentOnCreate, ContentEmbeddable } from '../../reactive-content';
 
 @Component({
   selector: 'rc-grid-row',
-  template: `<ng-container #embed></ng-container>` // <div class="row" #embed></div>
+  template: `<div class="tile is-parent"><ng-container #embed></ng-container></div>` 
 })
 export class GridRowComponent implements ContentOnCreate, ContentEmbeddable {
 

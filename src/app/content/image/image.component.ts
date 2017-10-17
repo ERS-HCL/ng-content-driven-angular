@@ -3,10 +3,15 @@ import { ContentOnCreate } from '../../reactive-content';
 
 @Component({
   selector: 'rc-image',
-  template: `<img [attr.src]="src" [attr.alt]="alt" width="500" height="400">`,
-  styles: [`img { object-fit: cover; }`]
+  template: ` <div class="columns is-mobile">
+   <div class="column is-half is-offset-one-quarter">
+   <figure class="image" [ngClass]="cssClasses" ><img [attr.src]="src" [attr.alt]="alt"></figure>
+  </div>
+  </div>`
 })
 export class ImageComponent implements OnInit, ContentOnCreate {
+
+  public cssClasses: string;
 
   @Input()
   public src: string;
@@ -22,6 +27,9 @@ export class ImageComponent implements OnInit, ContentOnCreate {
   contentOnCreate(values: { [key: string]: any; }): void {
     this.src = values.src;
     this.alt = values.alt;
+    const dimension: string = values.dimension ? `is-${values.dimension}` : '';
+    const ratio: string = values.ratio ? `is-${values.ratio}` : '';
+    this.cssClasses = [dimension, ratio].join(' ');
   }
 
 }

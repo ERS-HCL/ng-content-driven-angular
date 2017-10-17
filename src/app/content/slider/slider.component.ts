@@ -3,20 +3,20 @@ import { Title } from '@angular/platform-browser';
 import { ContentOnCreate, ContentEmbeddable } from '../../reactive-content';
 
 @Component({
-  selector: 'rc-page',
-  template: `<div class="container"><ng-container #embed></ng-container></div>`
+  selector: 'rc-slider',
+  templateUrl: './slider.component.html',
+  styleUrls: ['./slider.component.scss']
 })
-export class PageComponent implements ContentOnCreate, ContentEmbeddable {
+export class SliderComponent implements ContentOnCreate, ContentEmbeddable {
 
-  @ViewChild('embed', {read: ViewContainerRef})
+  @ViewChild('embed', { read: ViewContainerRef })
   public embed: ViewContainerRef;
 
   constructor(
-    private title: Title
   ) { }
 
   contentOnCreate(values: { [key: string]: any; }): void {
-    this.title.setTitle(values.title);
+    // TODO
   }
 
   contentEmbeddable(): ViewContainerRef {

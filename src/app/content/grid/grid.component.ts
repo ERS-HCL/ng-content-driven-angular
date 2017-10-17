@@ -3,7 +3,7 @@ import { ContentOnCreate, ContentEmbeddable } from '../../reactive-content';
 
 @Component({
   selector: 'rc-grid',
-  template: `<div class="container"><ng-container #embed></ng-container></div>`
+  template: `<div class="tile is-ancestor"><ng-container #embed></ng-container></div>`
 })
 export class GridComponent implements OnInit, ContentOnCreate, ContentEmbeddable {
 

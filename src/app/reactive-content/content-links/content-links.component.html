@@ -1,8 +1,36 @@
-<nav *ngIf="links && links.length > 0">
-
-  <button *ngFor="let link of links"
-          (click)="selected.emit(link)"
-          type="button"
-          class="button button-clear">{{ link.rel }}</button>
-
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation" *ngIf="links && links.length > 0">
+  <div *ngFor="let link of links">
+    <div class="navbar-item">
+      <button (click)="selected.emit(link)" type="button" class="button is-primary">{{ link.rel }}</button>
+    </div>
+  </div>
 </nav>
+-->
+<section class="hero is-primary is-medium">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="https://avatars1.githubusercontent.com/u/32506169?s=200&v=4" alt="Logo">
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+            <div *ngFor="let link of links">
+                <div class="navbar-item">
+                  <button (click)="selected.emit(link)" type="button" class="button is-primary">{{ link.rel }}</button>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</section>

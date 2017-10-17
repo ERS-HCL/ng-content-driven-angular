@@ -17,7 +17,9 @@
                     "one": {
                       "src": "//placekitten.com/500/400",
                       "alt": "First image",
-                      "_type": "image"
+                      "_type": "image",
+                      "dimension": "128x128",
+                      "ratio": "square"
                     }
                   }
                 },
@@ -29,7 +31,9 @@
                     "two": {
                       "src": "//placekitten.com/500/420",
                       "alt": "Second image",
-                      "_type": "image"
+                      "_type": "image",
+                      "dimension": "128x128",
+                      "ratio": "square"
                     }
                   }
                 }
@@ -45,7 +49,9 @@
                   "three": {
                     "src": "//placekitten.com/500/440",
                     "alt": "Third image",
-                    "_type": "image"
+                    "_type": "image",
+                    "dimension": "128x128",
+                    "ratio": "square"
                   }
                 }
               }

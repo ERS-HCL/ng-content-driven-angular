@@ -4,21 +4,50 @@
   "_embedded": {
     "headline": {
       "text": "A Showcase for Content-Driven Angular Apps",
-      "_type": "headline"
+      "_type": "headline",
+      "class": "title",
+      "size" : "1"
     },
     "banner": {
       "src": "//placekitten.com/500/400",
       "alt": "Great banter here",
-      "_type": "image"
+      "_type": "image",
+      "ratio": "square"
+    },
+    "slider": {
+      "_type": "slider",
+      "_embedded": {
+        "images": [{
+            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "alt": "First image",
+            "_type": "slider-image"
+          },
+          {
+            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "alt": "First image",
+            "_type": "slider-image"
+          },
+          {
+            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "alt": "First image",
+            "_type": "slider-image"
+          },
+          {
+            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "alt": "First image",
+            "_type": "slider-image"
+          }
+        ]
+      }
     },
     "grid": {
       "_type": "grid",
       "_embedded": {
+
         "row0": {
           "_type": "row",
           "_embedded": {
-            "columns": [
-              {
+            "columns": [{
                 "_type": "column",
                 "size": 66,
                 "_embedded": {
@@ -39,7 +68,8 @@
                   "three": {
                     "src": "https://upload.wikimedia.org/wikipedia/de/thumb/3/3f/Real_Madrid_Logo.svg/1200px-Real_Madrid_Logo.svg.png",
                     "alt": "Cheating spaniards over here",
-                    "_type": "image"
+                    "_type": "image",
+                    "ratio": "square"
                   }
                 }
               }
@@ -50,8 +80,14 @@
     }
   },
   "_links": {
-    "self": { "href": "content/index.json" },
-    "gallery": { "href": "content/gallery.json" },
-    "imprint": { "href": "content/imprint.json" }
+    "self": {
+      "href": "content/index.json"
+    },
+    "gallery": {
+      "href": "content/gallery.json"
+    },
+    "imprint": {
+      "href": "content/imprint.json"
+    }
   }
 }

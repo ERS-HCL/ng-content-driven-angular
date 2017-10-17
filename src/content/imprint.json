@@ -4,19 +4,51 @@
   "_embedded": {
     "headline": {
       "text": "Lorem ipsum dolor sit amet...",
-      "_type": "headline"
+      "_type": "headline",
+      "class": "title",
+      "size" : "1"
     },
     "headline_0": {
       "text": "consetetur sadipscing elitr, sed diam nonumy eirmod.",
-      "_type": "headline"
+      "_type": "headline",
+      "class": "title",
+      "size" : "2"
     },
     "headline_1": {
       "text": "Nam liber tempor cum soluta nobis eleifend option.",
-      "_type": "headline"
+      "_type": "headline",
+      "class": "title",
+      "size" : "3"
     },
     "headline_2": {
       "text": "At vero eos et accusam et justo duo dolores et ea rebum.",
-      "_type": "headline"
+      "_type": "headline",
+      "class": "title",
+      "size" : "4"
+    },
+    "headline_3": {
+      "text": "Lorem ipsum dolor sit amet...",
+      "_type": "headline",
+      "class": "subtitle",
+      "size" : "1"
+    },
+    "headline_4": {
+      "text": "consetetur sadipscing elitr, sed diam nonumy eirmod.",
+      "_type": "headline",
+      "class": "subtitle",
+      "size" : "2"
+    },
+    "headline_5": {
+      "text": "Nam liber tempor cum soluta nobis eleifend option.",
+      "_type": "headline",
+      "class": "subtitle",
+      "size" : "3"
+    },
+    "headline_6": {
+      "text": "At vero eos et accusam et justo duo dolores et ea rebum.",
+      "_type": "headline",
+      "class": "subtitle",
+      "size" : "4"
     }
   },
   "_links": {

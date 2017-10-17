@@ -7,6 +7,8 @@ import { GridComponent } from './grid/grid.component';
 import { PageComponent } from './page/page.component';
 import { GridColumnComponent } from './grid/grid-column.component';
 import { GridRowComponent } from './grid/grid-row.component';
+import { SliderComponent } from './slider/slider.component';
+import { SliderImageComponent } from './slider/slider-image.component';
 
 export const CONTENT_COMPONENTS = [
   HeadlineComponent,
@@ -14,7 +16,9 @@ export const CONTENT_COMPONENTS = [
   GridComponent,
   GridColumnComponent,
   GridRowComponent,
-  PageComponent
+  PageComponent,
+  SliderComponent,
+  SliderImageComponent
 ];
 
 export const CONTENT_MAPPINGS_PROVIDER: Provider = [
@@ -27,6 +31,8 @@ export const CONTENT_MAPPINGS_PROVIDER: Provider = [
       'row': GridRowComponent,
       'image': ImageComponent,
       'page': PageComponent,
+      'slider': SliderComponent,
+      'slider-image': SliderImageComponent
     }
   }
 ];
