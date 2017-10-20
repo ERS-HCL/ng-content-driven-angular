@@ -6,7 +6,8 @@
       "text": "A Showcase for Content-Driven Angular Apps",
       "_type": "headline",
       "class": "title",
-      "size": "2"
+      "size": "medium",
+      "box": true
     },
     "slider": {
       "_type": "slider",
