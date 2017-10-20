@@ -8,6 +8,32 @@
       "class": "title",
       "size": "2"
     },
+    "slider": {
+      "_type": "slider",
+      "_embedded": {
+        "images": [{
+            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "alt": "First image",
+            "_type": "slider-image"
+          },
+          {
+            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "alt": "First image",
+            "_type": "slider-image"
+          },
+          {
+            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "alt": "First image",
+            "_type": "slider-image"
+          },
+          {
+            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "alt": "First image",
+            "_type": "slider-image"
+          }
+        ]
+      }
+    },
     "mytiles": {
       "_type": "tiles",
       "_embedded": {
@@ -104,70 +130,6 @@
           "alt": "Great banter here",
           "_type": "image",
           "ratio": "4by3"
-        }
-      }
-    },
-    "slider": {
-      "_type": "slider",
-      "_embedded": {
-        "images": [{
-            "src": "http://bulma.io/images/placeholders/640x480.png",
-            "alt": "First image",
-            "_type": "slider-image"
-          },
-          {
-            "src": "http://bulma.io/images/placeholders/640x480.png",
-            "alt": "First image",
-            "_type": "slider-image"
-          },
-          {
-            "src": "http://bulma.io/images/placeholders/640x480.png",
-            "alt": "First image",
-            "_type": "slider-image"
-          },
-          {
-            "src": "http://bulma.io/images/placeholders/640x480.png",
-            "alt": "First image",
-            "_type": "slider-image"
-          }
-        ]
-      }
-    },
-    "grid": {
-      "_type": "grid",
-      "_embedded": {
-
-        "row0": {
-          "_type": "row",
-          "_embedded": {
-            "columns": [{
-                "_type": "column",
-                "size": 66,
-                "_embedded": {
-                  "one": {
-                    "text": "I am a grid column",
-                    "_type": "headline"
-                  }
-                }
-              },
-              {
-                "_type": "column",
-                "size": 33,
-                "_embedded": {
-                  "two": {
-                    "text": "Me too!",
-                    "_type": "headline"
-                  },
-                  "three": {
-                    "src": "https://upload.wikimedia.org/wikipedia/de/thumb/3/3f/Real_Madrid_Logo.svg/1200px-Real_Madrid_Logo.svg.png",
-                    "alt": "Cheating spaniards over here",
-                    "_type": "image",
-                    "ratio": "square"
-                  }
-                }
-              }
-            ]
-          }
         }
       }
     }
