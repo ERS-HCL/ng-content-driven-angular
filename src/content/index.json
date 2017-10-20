@@ -12,26 +12,42 @@
       "_type": "slider",
       "_embedded": {
         "images": [{
-            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "src": "https://i.ytimg.com/vi/daIBhj9CgD0/sddefault.jpg",
             "alt": "First image",
             "_type": "slider-image"
           },
           {
-            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0f40czmYDgsBTuzuGSFGHd1JERL7vuYWIcNCy6DEATaYrRbTh",
             "alt": "First image",
             "_type": "slider-image"
           },
           {
-            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "src": "http://www.wetpaint.com/wp-content/uploads/2017/06/game-of-thrones-spoilers-entertainment-weekly-640x480-1496352938.jpg",
             "alt": "First image",
             "_type": "slider-image"
           },
           {
-            "src": "http://bulma.io/images/placeholders/640x480.png",
+            "src": "https://1.bp.blogspot.com/-UwVV9n12OcA/WIN1siiVeXI/AAAAAAAAB_0/WIVpjiL8A0MsKIXeMq6Ye_6-5Zq9KKJUwCLcB/s640/The_BFG_Banner_01.jpg",
             "alt": "First image",
             "_type": "slider-image"
           }
         ]
+      }
+    },
+
+    "article_0": {
+      "title": "Article Title ..",
+      "_type": "article",
+      "color": "primary",
+      "subtitle": "Article subtitle ...",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.",
+      "_embedded": {
+        "banner": {
+          "src": "https://static.toiimg.com/thumb/msid-60487209,width-640,resizemode-4/60487209.jpg",
+          "alt": "Great banter here",
+          "_type": "image",
+          "ratio": "4by3"
+        }
       }
     },
     "mytiles": {
@@ -114,22 +130,6 @@
               "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
             }
           }
-        }
-      }
-    },
-
-    "article_0": {
-      "title": "Article Title ..",
-      "_type": "article",
-      "color": "primary",
-      "subtitle": "Article subtitle ...",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.",
-      "_embedded": {
-        "banner": {
-          "src": "https://bulma.io/images/placeholders/640x480.png",
-          "alt": "Great banter here",
-          "_type": "image",
-          "ratio": "4by3"
         }
       }
     }
