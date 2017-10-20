@@ -23,6 +23,7 @@ export class ArticleComponent implements OnInit, ContentOnCreate , ContentEmbedd
 
   @Input()
   public content: string;
+  
 
   constructor() { }
 

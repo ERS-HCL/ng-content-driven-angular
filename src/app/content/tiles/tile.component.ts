@@ -7,7 +7,7 @@ import { ContentOnCreate, ContentEmbeddable } from '../../reactive-content';
 })
 export class TileComponent implements OnInit, ContentOnCreate, ContentEmbeddable {
 
-  public classes = 'tile is-parent';
+  public classes = 'tile';
   public cssClasses: string;
 
   @ViewChild('embed', {read: ViewContainerRef})
@@ -21,7 +21,8 @@ export class TileComponent implements OnInit, ContentOnCreate, ContentEmbeddable
   contentOnCreate(values: { [key: string]: any; }): void {
     const size: string = values.size ? `is-${values.size}` : '';
     const orientation: string = values.orientation ? `is-${values.orientation}` : '';
-    this.cssClasses = [this.classes, size , orientation].join(' ');
+    const parent: string = values.parent ? 'is-parent' : '';
+    this.cssClasses = [this.classes, size , parent , orientation].join(' ');
   }
 
   contentEmbeddable(): ViewContainerRef {

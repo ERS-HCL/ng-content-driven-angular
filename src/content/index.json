@@ -8,6 +8,67 @@
       "class": "title",
       "size": "1"
     },
+    "mytiles": {
+      "_type": "tiles",
+      "_embedded": {
+
+        "tile_01": [{
+            "title": "Article Title ..",
+            "_type": "tile",
+            "orientation": "vertical",
+            "size": "8",
+            "parent": true,
+            "_embedded": {
+              "myarticles_1": [{
+                "title": "Vertical...",
+                "_type": "article",
+                "color": "primary",
+                "subtitle": "Top tile",
+                "content": "content ..."
+              }, {
+                "title": "...tiles",
+                "_type": "article",
+                "color": "warning",
+                "subtitle": "Bottom tile",
+                "content": "content ..."
+              }]
+            }
+          },
+          {
+            "_type": "tile",
+            "parent": true,
+            "_embedded": {
+              "article_10": {
+                "title": "Middle tile",
+                "_type": "article",
+                "color": "primary",
+                "subtitle": "With an image",
+                "_embedded": {
+                  "banner": {
+                    "src": "https://bulma.io/images/placeholders/640x480.png",
+                    "alt": "Great banter here",
+                    "_type": "image",
+                    "ratio": "4by3"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "_type": "tile",
+            "_embedded": {
+              "article_10": {
+                "title": "Wide tile",
+                "_type": "article",
+                "color": "danger",
+                "subtitle": "Aligned with the right tile",
+                "content": "Tile with content"
+              }
+            }
+          }
+        ]
+      }
+    },
     "article_0": {
       "title": "Article Title ..",
       "_type": "article",
