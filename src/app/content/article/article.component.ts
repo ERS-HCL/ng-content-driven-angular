@@ -35,7 +35,8 @@ export class ArticleComponent implements OnInit, ContentOnCreate , ContentEmbedd
     this.subtitle = values.subtitle;
     this.content = values.content;
     const color: string = values.color ? `is-${values.color}` : '';
-    this.cssClasses = [this.classes, color].join(' ');
+    const size: string = values.size ? `is-${values.size}` : '';
+    this.cssClasses = [this.classes, color, size].join(' ');
   }
 
   contentEmbeddable(): ViewContainerRef {

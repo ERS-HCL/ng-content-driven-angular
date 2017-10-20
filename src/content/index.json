@@ -6,69 +6,92 @@
       "text": "A Showcase for Content-Driven Angular Apps",
       "_type": "headline",
       "class": "title",
-      "size": "1"
+      "size": "2"
     },
     "mytiles": {
       "_type": "tiles",
       "_embedded": {
-
-        "tile_01": [{
-            "title": "Article Title ..",
-            "_type": "tile",
-            "orientation": "vertical",
-            "size": "8",
-            "parent": true,
-            "_embedded": {
-              "myarticles_1": [{
-                "title": "Vertical...",
-                "_type": "article",
-                "color": "primary",
-                "subtitle": "Top tile",
-                "content": "content ..."
-              }, {
-                "title": "...tiles",
-                "_type": "article",
-                "color": "warning",
-                "subtitle": "Bottom tile",
-                "content": "content ..."
-              }]
-            }
-          },
-          {
-            "_type": "tile",
-            "parent": true,
-            "_embedded": {
-              "article_10": {
-                "title": "Middle tile",
-                "_type": "article",
-                "color": "primary",
-                "subtitle": "With an image",
-                "_embedded": {
-                  "banner": {
-                    "src": "https://bulma.io/images/placeholders/640x480.png",
-                    "alt": "Great banter here",
-                    "_type": "image",
-                    "ratio": "4by3"
+        "nexted_tile": {
+          "_type": "tile",
+          "orientation": "vertical",
+          "_embedded": {
+            "nexted_tile2": {
+              "_type": "tile",
+              "_embedded": {
+                "tile_01": {
+                  "title": "Article Title ..",
+                  "_type": "tile",
+                  "orientation": "vertical",
+                  "parent": true,
+                  "_embedded": {
+                    "myarticles_1": [{
+                      "title": "Vertical...",
+                      "_type": "article",
+                      "color": "primary",
+                      "subtitle": "Top tile",
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+                    }, {
+                      "title": "...tiles",
+                      "_type": "article",
+                      "color": "warning",
+                      "subtitle": "Bottom tile",
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+                    }]
+                  }
+                },
+                "middle_tile": {
+                  "_type": "tile",
+                  "parent": true,
+                  "_embedded": {
+                    "article_0": {
+                      "title": "Article Title ..",
+                      "_type": "article",
+                      "color": "info",
+                      "subtitle": "Article subtitle ...",
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.",
+                      "_embedded": {
+                        "banner": {
+                          "src": "https://bulma.io/images/placeholders/640x480.png",
+                          "alt": "Great banter here",
+                          "_type": "image"
+                        }
+                      }
+                    }
                   }
                 }
               }
-            }
-          },
-          {
-            "_type": "tile",
-            "_embedded": {
-              "article_10": {
-                "title": "Wide tile",
-                "_type": "article",
-                "color": "danger",
-                "subtitle": "Aligned with the right tile",
-                "content": "Tile with content"
+            },
+            "row_tile": {
+              "_type": "tile",
+              "parent": true,
+              "_embedded": {
+                "article_10": {
+                  "title": "Wide tile",
+                  "_type": "article",
+                  "color": "danger",
+                  "subtitle": "Aligned with the right tile",
+                  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+                }
               }
             }
           }
-        ]
+        },
+        "tall_tile": {
+          "_type": "tile",
+          "parent": true,
+          "_embedded": {
+            "tall_article": {
+              "title": "Tall Article",
+              "_type": "article",
+              "color": "success",
+              "subtitle": "Article subtitle ...",
+              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+            }
+          }
+        }
       }
     },
+
     "article_0": {
       "title": "Article Title ..",
       "_type": "article",

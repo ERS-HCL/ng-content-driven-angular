@@ -10,6 +10,8 @@ export class TilesComponent implements OnInit, ContentOnCreate, ContentEmbeddabl
   @ViewChild('embed', {read: ViewContainerRef})
   public embed: ViewContainerRef;
 
+  public classes = 'tile is-ancestor';
+  public cssClasses: string;
   constructor() { }
 
   ngOnInit() {
@@ -17,6 +19,8 @@ export class TilesComponent implements OnInit, ContentOnCreate, ContentEmbeddabl
 
   contentOnCreate(values: { [key: string]: any; }): void {
     // TODO
+    const size: string = values.size ? `is-${values.size}` : '';
+    this.cssClasses = [this.classes, size].join(' ');
   }
 
   contentEmbeddable(): ViewContainerRef {

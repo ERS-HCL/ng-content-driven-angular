@@ -3,10 +3,11 @@ import { ContentOnCreate } from '../../reactive-content';
 
 @Component({
   selector: 'rc-headline',
-  template: `<h1 [ngClass]="cssClasses">{{ text }}</h1>`
+  template: `<div class="section"><h1 [ngClass]="cssClasses">{{ text }}</h1></div>`
 })
 export class HeadlineComponent implements OnInit, ContentOnCreate {
 
+  
   public cssClasses: string;
 
   @Input()
