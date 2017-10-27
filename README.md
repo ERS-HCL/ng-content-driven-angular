@@ -1,15 +1,9 @@
 Content-Driven Angular
 ======================
 
-> Complete, narrative stories are published on [Spektrakel Blog @ medium.com](https://medium.com/spektrakel-blog/content-driven-angular/home)
+This is a fork that has been extended to support the Bulma framework , plus has additional dynamic web components added for page rendering based on a headless CMS JSON API
 
- 1. [Towards Content-Driven Angular Apps](https://medium.com/spektrakel-blog/towards-content-driven-angular-apps-67b7afd2dd8c)
- 2. [Angular for the headless web — dynamic component rendering and content-driven apps](https://medium.com/spektrakel-blog/angular-for-the-headless-web-dynamic-component-rendering-and-content-driven-apps-803da730d324)
 
----
-
-[![CircleCI](https://circleci.com/gh/spektrakel-blog/ng-content-driven-angular/tree/master.svg?style=svg)](https://circleci.com/gh/spektrakel-blog/ng-content-driven-angular/tree/master)
-[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 
 
 ### Content Tree
