@@ -4,7 +4,9 @@ Content-Driven Angular
 This is a fork that has been extended to support the Bulma framework , plus has additional dynamic web components added for page rendering based on a headless CMS JSON API
 
 
+### Demo Application
 
+https://advocate-hunks-80813.netlify.com/
 
 ### Content Tree
 
